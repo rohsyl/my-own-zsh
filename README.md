@@ -83,3 +83,10 @@ Update .zshrc
 ```jsx
 plugins=(... zsh-bat)
 ```
+# ALias
+
+```
+alias lzd='docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock -v /yourpath/config:/.config/jesseduffield/>
+alias dive="docker run -ti --rm  -v /var/run/docker.sock:/var/run/docker.sock wagoodman/dive"
+alias ccat="/usr/bin/cat"
+```
