@@ -65,8 +65,4 @@ else
   echo "Plugins are already enabled in .zshrc."
 fi
 
-# Load changes
-echo "Reloading .zshrc..."
-source "$HOME/.zshrc"
-
 echo "Setup complete! Please restart your terminal or run 'exec zsh' to start using Zsh."
